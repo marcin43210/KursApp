@@ -11,7 +11,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="24dp"
-        android:text="@string/tekst" />
+        android:text="@string/tekst"
+        android:textSize="24sp"
+        android:textStyle="bold" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -32,6 +34,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/moveButton" />
+            android:background="@android:color/holo_red_dark"
+            android:text="@string/moveButton"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:padding="5dp" />
     </LinearLayout>
 </LinearLayout>
